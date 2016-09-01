@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>World Wide Travel App</title>
+    <link rel="stylesheet" type="text/css" href="lib/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+</head>
+<!-- TODO: Initialize our app -->
+<body ng-app="WorldWideTravelApp">
+
+    <div class="row">
+      <div class="col-xs-10 col-xs-offset-1 main-container">
+        <div class="col-xs-12" ng-view></div>
+      </div>
+    </div>
+
+<!-- 3rd party files -->
+<script type="text/javascript" src="lib/bower_components/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="lib/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="lib/bower_components/angular/angular.min.js"></script>
+<script type="text/javascript" src="lib/bower_components/angular-route/angular-route.min.js"></script>
+
+<!-- App Specific files -->
+<!-- angular module -->
+<script type="text/javascript" src="app/app.js"></script>
+<!-- controllers -->
+<script type="text/javascript" src="app/controllers/bookCtrl.js"></script>
+</body>
